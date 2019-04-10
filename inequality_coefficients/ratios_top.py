@@ -3,7 +3,8 @@ import numpy as np
 
 def ratio_top_rest(values_arg, percentage):
     """
-    Implements this formula: https://github.com/Grasia/WikiChron/wiki/assets/ratio_10_90.png
+    Implements this formula:
+    assets/ratio_10_90_formula.png
 
     Input can be np.array or list of numbers.
     """

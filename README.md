@@ -7,7 +7,10 @@ population.
 
 Implemented coefficients
 -------------
-* Gini Coefficient
+* Gini Coefficient:
+    * Ordinary
+    * Corrected: Using a correction for small datasets based on [Deltas,
+2003](https://doi.org/10.1162/rest.2003.85.1.226).
 * Ratio top / rest
 
 Installation
@@ -36,10 +39,6 @@ to know.:
 Acknowledgements
 ----------------
 
-Many thanks to Felipe Ortega to open source his implementation of the
-Gini coefficient, available here:
-https://github.com/ryanwitt/wikixray/blob/master/graphics.py.
+Firstly, I was based on Felipe Ortega's wikixray code for implementing the gini coefficient, however, my code has changed so much and I'm using numpy as backend.
 
-My code is based on that implementation, although I have made some
-changes and added a correction for small datasets based on [Deltas,
-2003](https://doi.org/10.1162/rest.2003.85.1.226).
+Anyway, I want to thank him for open sourcing that project.
