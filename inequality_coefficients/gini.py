@@ -39,6 +39,7 @@ def gini_corrected(values_arg):
 
     # Now, apply (Deltas, 2003 correction) for small datasets:
     # (https://doi.org/10.1162/rest.2003.85.1.226)
+    n_users = len(values_arg)
     g_coeff *= (1.0 / (n_users - 2))
 
     return g_coeff
