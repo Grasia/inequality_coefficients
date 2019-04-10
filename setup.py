@@ -6,7 +6,7 @@ with open('README.md') as file:
 setup(
     name='inequality_coefficients',
     packages=['inequality_coefficients'],
-    version='1.0.1',
+    version='1.1.0',
     description='Coefficients to measure inequality.',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -15,10 +15,10 @@ setup(
     url='https://github.com/Akronix/inequality_coefficients',
     python_requires='>=3',
     install_requires=['numpy'],
-    license='GPLv3+',
+    license='MIT',
     keywords='inequality coefficient index gini ratio top',
     classifiers=[
-        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
         'Topic :: Scientific/Engineering :: Mathematics',
