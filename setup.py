@@ -12,7 +12,7 @@ setup(
     long_description_content_type='text/markdown',
     author="Abel 'Akronix' Serrano Juste",
     author_email='akronix5@gmail.com',
-    url='https://github.com/Akronix/inequality_coefficients',
+    url='https://github.com/Grasia/inequality_coefficients',
     python_requires='>=3',
     install_requires=['numpy'],
     license='MIT',
