@@ -36,9 +36,18 @@ to know.:
     gini_coeff = ineq.gini_coeff(data)
     ratio_top_rest = ineq.ratio_top10_rest(data)
 
+# Development
+
+To setup the development environment install all the dev dependiencies with `pip install -r requirements.txt` and install the latest version in your sites-packages with `python setup.py develop`.
+
+## Run tests
+
+I use pytest. Install it with `pip install -U pytest` and run the test with the development setup with `pytest`.
+
+
 Acknowledgements
 ----------------
 
-Firstly, I was based on Felipe Ortega's wikixray code for implementing the gini coefficient, however, my code has changed so much and I'm using numpy as backend.
+Firstly, I was based on Felipe Ortega's wikixray code for implementing the gini coefficient, however, my code has changed so much (I have even fixed a bug in his code) and also now I'm using numpy as backend.
 
 Anyway, I want to thank him for open sourcing that project.
