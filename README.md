@@ -33,7 +33,7 @@ to know.:
 
     import inequality_coefficients as ineq
     data = array([1.7, 3.2 ...]) # data can be list of nums or numpy array
-    gini_coeff = ineq.gini_coeff(data)
+    gini_coeff = ineq.gini(data)
     ratio_top_rest = ineq.ratio_top10_rest(data)
 
 # Development
