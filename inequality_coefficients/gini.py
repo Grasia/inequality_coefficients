@@ -43,6 +43,9 @@ def gini_corrected(values_arg, n = None):
     if n is None:
         n = len(values_arg)
 
+    if n < 2: # Don't calculaute Gini for populations with less than one individual
+        return np.NaN
+
     # compute gini coefficient
     g_coeff = gini(values_arg, n)
 
