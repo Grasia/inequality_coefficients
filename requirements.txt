@@ -9,7 +9,7 @@ cycler==0.10.0
 decorator==4.3.0
 idna==2.8
 ineq==0.1
-ipython==7.31.0
+ipython==7.31.1
 ipython-genutils==0.2.0
 jedi==0.18.1
 kiwisolver==1.0.1
@@ -30,10 +30,10 @@ pyparsing==2.4.0
 pytest==6.2.5
 python-dateutil==2.7.5
 pytz==2018.9
-requests==2.21.0
+requests==2.26.0
 six==1.12.0
 soupsieve==1.9
 traitlets==4.3.2
-urllib3==1.24.2
+urllib3==1.26.5
 wcwidth==0.1.7
 wiki-dump-parser==2.0.0
