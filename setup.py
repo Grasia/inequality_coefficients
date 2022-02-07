@@ -6,7 +6,7 @@ with open('README.md') as file:
 setup(
     name='inequality_coefficients',
     packages=['inequality_coefficients'],
-    version='1.2.3',
+    version='1.2.4',
     description='Coefficients to measure inequality.',
     long_description=long_description,
     long_description_content_type='text/markdown',

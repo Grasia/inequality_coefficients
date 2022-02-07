@@ -1,6 +1,7 @@
 import math
 import numpy as np
 
+
 def ratio_top_rest(values_arg, percentage):
     """
     Implements this formula:
@@ -15,8 +16,8 @@ def ratio_top_rest(values_arg, percentage):
     values.sort() # sort in-place in ascending order
 
     n_users = len(values)
-    #~ top_percent_users would be = math.ceil(n_users * percentage_top);
-    rest_users = math.floor(n_users * (1 - percentage_top));
+    #~ top_percent_users would be = math.ceil(n_users * percentage_top)
+    rest_users = math.floor(n_users * (1 - percentage_top))
     edits_rest = values[:rest_users].sum()
     edits_top  = values[rest_users:].sum()
 
