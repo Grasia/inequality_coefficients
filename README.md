@@ -7,16 +7,20 @@ population.
 
 Implemented coefficients
 -------------
-* Gini Coefficient:
+* **Gini Coefficient**:
     * Ordinary. Follows this formula:
     
-    ![Gini formula](https://raw.githubusercontent.com/Grasia/inequality_coefficients/master/assets/gini_formula.png)
+    ![Gini formula](./assets/gini_formula.png)
     
     * Corrected. Uses a correction for small datasets based on [Deltas,
 2003](https://doi.org/10.1162/rest.2003.85.1.226).
-* Ratio top / rest. Follows this formula:
+* **Ratio top / rest**. Follows this formula:
 
-    ![Ratio top formula](https://raw.githubusercontent.com/Grasia/inequality_coefficients/master/assets/ratio_10_90_formula.png)
+    ![Ratio top formula](./assets/ratio_10_90_formula.png)
+
+* **Theil Index**. Based on information enthropy formula, with <img src="https://render.githubusercontent.com/render/math?math=p_i = \frac{x_i}{\mu}">
+
+    ![Theil Index Formula](./assets/theil_formula.png)
 
 Where k is is the ceil value for 100 - percentage you define.
 For instance, if you take k = 10, you are getting the ratio of inequality between the top 10% percentage and the rest 90% percentage. In particular, this specific value of k is given to you directly by the `ratio_top10_rest()` function.
