@@ -18,12 +18,12 @@ Implemented coefficients
 
     ![Ratio top formula](./assets/ratio_10_90_formula.png)
 
+> Where k is is the ceil value for 100 - percentage you define.
+> For instance, if you take k = 10, you are getting the ratio of inequality between the top 10% percentage and the rest 90% percentage. In particular, this specific value of k is given to you directly by the `ratio_top10_rest()` function.
+
 * **Theil Index**. Based on information enthropy formula, with <img src="https://render.githubusercontent.com/render/math?math=p_i = \frac{x_i}{\mu}">
 
     ![Theil Index Formula](./assets/theil_formula.png)
-
-Where k is is the ceil value for 100 - percentage you define.
-For instance, if you take k = 10, you are getting the ratio of inequality between the top 10% percentage and the rest 90% percentage. In particular, this specific value of k is given to you directly by the `ratio_top10_rest()` function.
 
 Installation
 ------------
